@@ -8,7 +8,7 @@ const corpo = Figtree({ subsets: ["latin"], variable: "--font-corpo" });
 const titulo = Barlow_Condensed({ subsets: ["latin"], weight: ["700", "800", "900"], variable: "--font-titulo" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("moradanovafc.com.br"),
+  metadataBase: new URL("https://moradanovafc.com.br"),
   title: {
     default: "A.E.C. Morada Nova | Futebol de base em Macaíba (RN)",
     template: "%s | A.E.C. Morada Nova",
